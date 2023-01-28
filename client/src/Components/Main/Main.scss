@@ -1,0 +1,61 @@
+#main{
+    background: url("https://preview.colorlib.com/theme/educature/img/header-bg.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2% 20%;
+    .main-text{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        gap: 35px;
+        h1{
+            font-size: 48px;
+            font-weight: 700;
+            font-family: 'Montserrat', sans-serif;
+            color: white;
+            max-width: 70%;
+        }
+        p{
+            font-size: 16px;
+            font-weight: 400;
+            color: white;
+            font-family: 'Roboto', sans-serif;
+            max-width: 65%;
+        }
+        .main-input{
+            background-color: white;
+            display: flex;
+            align-items: stretch;
+            padding: 5px;
+            input{
+                padding-left: 20px;
+                width: 500px;
+                border: none;
+                background-color: transparent;
+                outline: none;
+                &:focus{
+                    border: none;
+                    
+                }
+                &::placeholder{
+                    font-family: 'Roboto', sans-serif;
+                    font-size: 1.1rem;
+                }
+            }
+            button{
+                background: linear-gradient(90deg, #39cfca 0%, #3279bb 100%);
+                padding: 15px 30px;
+                border: none;
+                color: white;
+                cursor: pointer;
+            }
+        }
+    }
+    
+}

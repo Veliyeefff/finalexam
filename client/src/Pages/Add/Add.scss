@@ -1,0 +1,14 @@
+#add{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10% 20%;
+    height: 76vh;
+    form{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        gap: 30px;
+    }
+}

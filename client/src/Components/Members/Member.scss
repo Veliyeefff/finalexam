@@ -1,0 +1,92 @@
+#members{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 5% 20%;
+    background-color: #F1F9FF;
+    .members-text{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        gap: 15px;
+        h2{
+            font-size: 42px;
+            font-weight: 600;
+            font-family: 'Montserrat', sans-serif;
+        }
+        p{
+            font-size: 16px;
+            font-weight: 400;
+            font-family: 'Roboto', sans-serif;
+            color:rgb(119, 119, 119);
+            max-width: 70%;
+            line-height: 26px;
+        }
+    }
+    .member-cards{
+        margin-top: 20%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 30px;
+        .member-card{
+            background-color: white;
+            width: 250px;
+            position: relative;
+            padding: 33px;
+            .member-card-image{
+                position: absolute;
+                top: -130px;
+                right: 45px;
+                img{
+                    width: 163px;
+                    height: 163px;
+                }
+            }
+            .member-card-text{
+                margin-top: 50px;
+                h4{
+                    font-size: 21px;
+                    font-weight: 600;
+                    font-family: 'Montserrat', sans-serif;
+                }
+                p{
+                    font-size: 14px;
+                    font-weight: 400;
+                    font-family: 'Roboto', sans-serif;
+                    color: rgb(119, 119, 119);
+                    margin-top: 10px;
+                }
+                h6{
+                    font-size: 16px;
+                    font-weight: 400;
+                    line-height: 26px;
+                    font-family: 'Roboto', sans-serif;
+                    color: rgb(119, 119, 119);
+                    margin-top: 20px;
+
+                }
+            }
+            .member-card-links{
+                width: 100%;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                gap: 10px;
+                margin-top: 15px;
+                i{
+                    font-size: 0.8rem;
+                    color: rgb(189, 188, 188);
+                    cursor: pointer;
+                    transition: 0.3s;
+                    &:hover{
+                        color: black;
+                    }
+                }
+            }
+        }
+    }
+}
